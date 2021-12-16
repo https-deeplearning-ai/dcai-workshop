@@ -76,7 +76,7 @@
                     <a class="page-scroll" href="#program">Program</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#invited-talks">Talks</a>
+                    <a class="page-scroll" href="#papers">Papers</a>
                 </li>
             </ul>
         </div>
@@ -670,146 +670,629 @@ Data Centric AI workshop is inviting <span style="color: white; font-weight: bol
         </div>
     </div>
 </section>
-<!--
-<section>
+
+
+<section class="bg-primary" style="padding-bottom: 0" id="papers">
     <div class="container">
         <div class="row">
-            <div id="aleksander-madry" class="col-lg-5 col-lg-offset-1" style="padding-right: 40px">
-                <img src="img/keynotes/aleksander_madry.jpg" class="img-responsive" style="border-radius: 100%; width: 100%; height: auto; margin: 0 auto" alt="">
-                <br>
-                <h2 class="section-heading text-center"><a href="https://people.csail.mit.edu/madry/" target="_blank">Aleksander Madry (MIT)</a></h2>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="section-heading text-center">Accepted Papers</h2>
                 <hr class="primary">
-                <h3 class="text-center">What Do Our Models Learn?</h3><br>
                 <p>
-                    Large-scale vision benchmarks have driven—and often even defined—progress in machine learning. However, these benchmarks are merely proxies for the real-world tasks we actually care about. How well do our benchmarks capture such tasks?
-                    <br><br>
-                    In this talk, I will discuss the alignment between our benchmark-driven ML paradigm and the real-world uses cases that motivate it. First, we will explore examples of biases in the ImageNet dataset, and how state-of-the-art models exploit them. We will then demonstrate how these biases arise as a result of design choices in the data collection and curation processes.
-                    <br><br>
-                    Throughout, we illustrate how one can leverage relatively standard tools (e.g., crowdsourcing, image processing) to quantify the biases that we observe.
-                    <br><br>
-                    Based on joint works with Logan Engstrom, Andrew Ilyas, Shibani Santurkar, Jacob Steinhardt, Dimitris Tsipras and Kai Xiao.
-                </p>
-                <hr class="primary">
-                <h3 class="text-center">Bio</h3><br>
-                <p>
-                    Aleksander Madry is a Professor of Computer Science in the MIT EECS Department and a Principal Investigator in the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). He received his PhD from MIT in 2011 and, prior to joining the MIT faculty, he spent some time at Microsoft Research New England and on the faculty of EPFL.
-                    <br><br>
-                    Aleksander's research interests span algorithms, continuous optimization, science of deep learning, and understanding machine learning from a robustness and deployability perspectives. His work has been recognized with a number of awards, including an NSF CAREER Award, an Alfred P. Sloan Research Fellowship, an ACM Doctoral Dissertation Award Honorable Mention, and Presburger Award.
-                </p>
-            </div>
-            <div id="emily-dinan" class="col-lg-5" style="padding-left: 40px">
-                <img src="img/keynotes/emily_dinan.jpg" class="img-responsive" style="border-radius: 100%; width: 100%; height: auto; margin: 0 auto" alt="">
-                <br>
-                <h2 class="section-heading text-center"><a href="https://www.linkedin.com/in/emily-d-4553b9194/" target="_blank">Emily Dinan (Facebook AI)</a></h2>
-                <hr class="primary">
-                <h3 class="text-center">Adversarial Data Collection for Chatbot Safety</h3><br>
-                <p>
-                    Models trained on large unlabeled corpora of human interactions will learn patterns and mimic behaviors therein, which may include offensive or otherwise toxic behavior and unwanted biases. I will discuss several methods for mitigating these issues in neural dialogue models. In particular, I will highlight the use of iterative, adversarial human-and-model-in-the-loop data collection and model training procedures for the purpose of making chatbots robust to adversarial attack from humans. In opposition to static benchmarks, these approaches yield a “moving goalpost” for natural language understanding systems, and recent work shows that models trained on these increasingly complex tasks are more robust to adversarial attack.
-                </p>
-                <hr class="primary">
-                <h3 class="text-center">Bio</h3><br>
-                <p>
-                    Emily is a Research Engineer at Facebook AI Research in New York. She graduated with a Master's degree in Mathematics from the University of Washington. Emily's research interests include conversational AI, natural language processing, and fairness in these fields.
+                    <table class="table table-striped text-center" style="font-size: 120%">
+                        <thead style="font-weight: bold">
+                            <tr>
+                                <td width="50%">Title</td>
+                                <td>Authors</td>
+                                <td>Link</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>A Hybrid Bayesian Model to Analyse Healthcare Data</td>
+                                <td>Pourshahrokhi, Narges*; Kouchaki, Samaneh; Kober, Kord; Miaskowski, Christine ; Barnaghi, Payam</td>
+                                <td><a href="papers/4_CameraReady_NeurIPS_data_centric(6).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>How should human translation coexist with NMT? Efficient tool for building high quality parallel corpus</td>
+                                <td>Park, Chanjun*; Lee, Seolhwa; Moon, Hyeonseok; Eo, Sugyeong; Seo, Jaehyung; Lim, Heuiseok</td>
+                                <td><a href="papers/6_CameraReady_DCAI_HighQuality.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>A New Tool for Efficiently Generating Quality Estimation Datasets</td>
+                                <td>Eo, Sugyeong; Park, Chanjun*; Seo, Jaehyung; Moon, Hyeonseok; Lim, Heuiseok</td>
+                                <td><a href="papers/11_CameraReady_DCAI_QE.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Automatic Knowledge Augmentation for Generative Commonsense Reasoning</td>
+                                <td>Seo, Jaehyung*; Park, Chanjun; Eo, Sugyeong; Moon, Hyeonseok; Lim, Heuiseok</td>
+                                <td><a href="papers/14_CameraReady_DCAI_CommonGen.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Tabular Engineering with Automunge</td>
+                                <td>Teague, Nicholas*</td>
+                                <td><a href="papers/15_CameraReady_TabularEngineering_102621_Final.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>A Probabilistic Framework for Knowledge GraphData Augmentation</td>
+                                <td>Chauhan, Jatin*; Gupta, Priyanshu; Minervini, Pasquale</td>
+                                <td><a href="papers/16_CameraReady_KG_Aug_NeurIPS_Workshop.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>FedHist: A Federated-First Dataset for Learning inHealthcare</td>
+                                <td>Khan, Usmann*</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>A First Look Towards One-Shot Object Detection with SPOT for Data-Efficient Learning</td>
+                                <td>Chakraborty, Ria*; Popli, Madhur; Lamba, Rachit; Verma, Rishi</td>
+                                <td><a href="papers/18_CameraReady_SCIPUB-5209.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>YMIR: A Rapid Data-centric Development Platform for Vision Applications</td>
+                                <td>Huang, Phoenix X.; Hu, Wenze*; Brendel, William; Chandraker, Manmohan; Li, Li-Jia; Wang, Xiaoyu</td>
+                                <td><a href="papers/19_CameraReady_PAMIR(4).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Towards better data discovery and collection with flow-based programming</td>
+                                <td>Paleyes, Andrei*; Cabrera, Christian; Lawrence, Neil D</td>
+                                <td><a href="papers/20_CameraReady_dcai_2021_camera_ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>CircleNLU: A Tool for building Data-Driven Natural Language Understanding System</td>
+                                <td>Hoang, Vu*</td>
+                                <td><a href="papers/22_CameraReady_NeuRIPS_Data_Centric_AI.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Using Synthetic Images To Uncover Population Biases In Facial Landmarks Detection</td>
+                                <td>Shadmi, Ran*; Laserson, Jonathan; Elbaz, Gil</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Challenges of Working with Materials R&D Data</td>
+                                <td>Kubie, Lenore*; Kroenlein, Kenneth</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>PyHard: a novel tool for generating hardness embeddings  to support data-centric analysis</td>
+                                <td>Paiva, Pedro Yuri Arbs*; Smith-Miles, Kate; Valeriano, Maria; Lorena, Ana</td>
+                                <td><a href="papers/30_CameraReady_DCAI_2021_camera_ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>AirSAS: Controlled Dataset Generation for Physics-Informed Machine Learning</td>
+                                <td>Cowen, Benjamin*; Park, J. Daniel; Blanford, Thomas E.; Goehle, Geoff; Brown, Daniel C.</td>
+                                <td><a href="papers/32_CameraReady_airsas-dcai21.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Open-Sourcing Generative Models for Data-driven Robot Simulations</td>
+                                <td>Bamani, Eran*; Sintov, Avishai; Azulay, Osher; Gurevich, Anton</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Few-Shot Image Classification Challenge On-Board OPS-SAT</td>
+                                <td>Derksen, Dawa*; Meoni, Gabriele; Lecuyer, Gurvan; Mergy, Anne; Maertens, Marcus; Izzo, Dario</td>
+                                <td><a href="papers/37_CameraReady_ops_sat_dataset_centric_competition.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Dialectal Voice : An Open-Source Voice Dataset and Automatic Speech Recognition model for Moroccan Arabic dialectal</td>
+                                <td>Allak, Anass*; Naira, Abdou Mohamed; Imade, Benelallam; Kamel, Gaanoun</td>
+                                <td><a href="papers/42_CameraReady_Dialectal_Voice___An_Open_Source_Voice_Dataset_and_Automatic_Speech_Recognition_model_for_Moroccan_Arabic_dialectal(1).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>DAG Card is the new Model Card</td>
+                                <td>Tagliabue, Jacopo*; Tuulos, Ville; Greco, Ciro; Dave, Valay</td>
+                                <td><a href="papers/43_CameraReady_neurips_data_centric_2021_DAG_CARDS_camera_ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>SCIMAT: Science and Mathematics Dataset</td>
+                                <td>Kollepara, Neeraj; Chatakonda, Snehith K; kumar, pawan*</td>
+                                <td><a href="papers/45_CameraReady_paper_45_update.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Towards Systematic Evaluation in Machine Learning through Automated Stress Test Creation</td>
+                                <td>Madras, David*; Zemel, Richard</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Annotation Quality Framework - Accuracy,Credibility, and Consistency</td>
+                                <td>Lavitas, Liliya*; Lee, Allen; Redfield, Olivia; Fletcher, Daniel; Eck, Matthias; Janardhanan, Sunil</td>
+                                <td><a href="papers/49_CameraReady_DCAI2021_tex(8).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Ontolabeling: Re-Thinking Data Labeling For Computer Vision</td>
+                                <td>Croce, Nicola*; Nieto, Marcos</td>
+                                <td><a href="papers/50_CameraReady_final_NeurIPS_2021___Data_Centric_AI_Paper.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Natural Adversarial Objects</td>
+                                <td>Lau, Felix*; Harrison, Sasha; Subramani, Nishant; Kim, Aerin; Branson, Elliot R; Liu, Rosanne</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>No News is Good News: A Critique of the One Billion Word Benchmark</td>
+                                <td>Ngo, Helen*; Frosst, Nicholas; Madeira Araújo, João  G; Hui, Jeff</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>A Data-Centric Approach for Training Deep Neural Networks with Less Data</td>
+                                <td>Motamedi, Mohammad*; Sakharnykh, Nikolay; Kaldewey, Tim</td>
+                                <td><a href="papers/56_CameraReady_neurips_2021.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Finding Label Errors in Autonomous Vehicle Data With Learned Observation Assertions</td>
+                                <td>Kang, Daniel*; Arechiga, Nikos; Pillai, Sudeep; Bailis, Peter D; Zaharia, Matei</td>
+                                <td><a href="papers/57_CameraReady_main.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Single-Click 3D Object Annotation on LiDAR Point Clouds</td>
+                                <td>Nguyen, Trung Duc*; Hua, Binh-Son; Nguyen, Thanh; Phung, Dinh</td>
+                                <td><a href="papers/58_CameraReady_camera_ready_v2.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Decreasing Annotation Burden of Pairwise Comparisons with Human-in-the-Loop Sorting: Application in Medical Image Artifact Rating</td>
+                                <td>Jang, Ikbeom*; Danley, Garrison; Chang, Ken; Kalpathy-Cramer, Jayashree</td>
+                                <td><a href="papers/59_CameraReady_manuscript_20211120_cameraready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Effect of Radiology Report Labeler Quality on Deep Learning Models for Chest X-Ray Interpretation</td>
+                                <td>Jain, Saahil*; Smit, Akshay; Ng, Andrew; Rajpurkar, Pranav</td>
+                                <td><a href="papers/61_CameraReady_DCAI_2021_submission.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>A Data-Centric Image Classification Benchmark</td>
+                                <td>Schmarje, Lars*; Liao, Yuan-Hong; Koch, Reinhard</td>
+                                <td><a href="papers/64_CameraReady_camera-readydcaiv2.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Diagnosing severity levels of Autism Spectrum Disorder with Machine Learning</td>
+                                <td>Cinque, Marcello; Moscato, Vincenzo; Postiglione, Marco*; Riccio, Maria Pia</td>
+                                <td><a href="papers/69_CameraReady__DataCentricAI____Autism.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Sampling To Improve Predictions For Underrepresented Observations In Imbalanced Data</td>
+                                <td>Kjærsgaard, Rune D.*; Grønberg, Manja; Clemmensen, Line</td>
+                                <td><a href="papers/70_CameraReady_DCAI_Sampling_Camera.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Automatic Data Quality Evaluation for Text Classification</td>
+                                <td>li, jiazheng*</td>
+                                <td><a href="papers/72_CameraReady_li_jiazheng_data_centric_ai_workshop.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Building Legal Datasets</td>
+                                <td>Soh, Jerrold*</td>
+                                <td><a href="papers/74_CameraReady_building-legal-datasets-CamReady.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Comparing Data Augmentation and Annotation Standardization to Improve End-to-end Spoken Language Understanding Models</td>
+                                <td>Nicolich-Henkin, Leah*; Nakatani, Taichi; Trozenski, Zach; Whiteman, Joel; Susanj, Nathan</td>
+                                <td><a href="papers/75_CameraReady_comparing_data_augmentation_and_annotation_standardization.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>DiagnosisQA: A semi-automated pipeline for developing clinician validated diagnosis specific QA datasets.</td>
+                                <td>Mishra, Shreya; Awasthi, Raghav; Papay,   Frankie;  Maheshwari, Kamal; Cywinski, Jacek; Khanna, Ashish; Mathur, Piyush *</td>
+                                <td><a href="papers/76_CameraReady_DCAI_CameraReady_Submission.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Influence of human-expert labels on a neonatal seizure detector based on a convolutional neural network</td>
+                                <td>Borovac, Ana*; Runarsson, Thomas P; Guðmundsson, Steinn; Thorvardsson, Gardar</td>
+                                <td><a href="papers/77_CameraReady_borovac2021influence.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Feminist Curation of Text for Data-centric AI</td>
+                                <td>Bartl, Marion*; Leavy, Susan</td>
+                                <td><a href="papers/79_CameraReady_DCAI_Workshop_NeurIPS_2021_final.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Challenges and Solutions to build a Data Pipeline to Identify Anomalies in Enterprise System Performance</td>
+                                <td>Huang, Xiaobo*; Banerjee, Amitabha; Chen, Chien-Chia; Huang, Chengzhi; Chuang, Tzu Yi; Srivastava, Abhishek; Cheveresan, Razvan</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Human-inspired Data Centric Computer Vision</td>
+                                <td>Tsutsui, Satoshi*; Crandall, David; Yu, Chen</td>
+                                <td><a href="papers/82_CameraReady_2021_Neurips_WS_datacentric_AI(1).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Utilizing Driving Context to Increase the Annotation Efficiency of Imbalanced Gaze Image Data</td>
+                                <td>Rehm, Johannes*; Gundersen, Odd Erik; Bach, Kerstin; Reshodko, Irina</td>
+                                <td><a href="papers/83_CameraReady_DataCentricAIWorkshop_final.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Unleashing the Power of Industrial Big Data through Scalable Manual Labeling</td>
+                                <td>Paes Leao, Bruno*; Fradkin, Dmitriy; Lan, Tu; Wang, Jianhui</td>
+                                <td><a href="papers/84_CameraReady_MindSynchro___NeurIPS_Data_Centric_AIfinal.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>nferX: a case study on data-centric NLP in biomedicine</td>
+                                <td>Chang, David*; Mathew, Vineet; Kogler, Lorenzo; Jin, Roger; Rao, Krishna; Raghunathan, Bharathwaj; Ip, Wui; Doctor, Zainab; Pawlowski, Colin; Rajesekharan, Ajit</td>
+                                <td><a href="papers/85_CameraReady_NEURIPS_DCAI_2021_Submission_camera_ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>On Data-centric Myths</td>
+                                <td>Marcu, Antonia*; Prugel-Bennett, Adam</td>
+                                <td><a href="papers/86_CameraReady_Data_centric_AI_workshop(2).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>All in one Data Cleansing Tool</td>
+                                <td>Sairaman, Sri Aravind*; Vailoppilly, Arun Prasad ; Sakthivel, Ramkumar; Kumar, Resham Sundar; BDSV, Vignesh; G, Aravind</td>
+                                <td><a href="papers/87_CameraReady_Camera_Ready_Version_Final_Draft_DCAI.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Contrasting the Profiles of Easy and Hard Observations in a Dataset</td>
+                                <td>Moreno, Camila C*; Paiva, Pedro; Nunes, Gustavo; Lorena, Ana</td>
+                                <td><a href="papers/88_CameraReady_Neurips_2021.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>A concept for fitness-for-use evaluation in Machine Learning pipelines</td>
+                                <td>Jonietz, David*</td>
+                                <td><a href="papers/89_CameraReady_data_centric_AI_camera_ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Vietnamese Speech-based Question Answering over Car Manuals</td>
+                                <td>Vo, Tin Duy*; Luong, Manh; Minh Le, Duong; Tran, Hieu Minh; Do, Nhan; Nguyen, Duy; Nguyen, Thien; Bui, Hung; Nguyen, Dat Quoc; Phung, Dinh</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Self-supervised Semi-supervised Learning for Data Labeling and Quality Evaluation</td>
+                                <td>Bai, Haoping*; Cao, Meng; Huang, Ping; Shan, Jiulong</td>
+                                <td><a href="papers/91_CameraReady_Self_supervised_Semi_supervised_Learning_for_Data_Labeling_and_Quality_Evaluation.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Towards a Taxonomy of Graph Learning Datasets</td>
+                                <td>Liu, Renming; Cantürk, Semih; Wenkel, Frederik; Sandfelder, Dylan; Kreuzer, Devin; Little, Anna; McGuire, Sarah; Perlmutter, Michael; O'Bray, Leslie; Rieck, Bastian; Hirn, Matthew; Wolf, Guy; Rampášek, Ladislav*</td>
+                                <td><a href="papers/92_CameraReady_DCAI_NeurIPS_2021_GTaxonomy.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Addressing Content Selection Bias in Creating Datasets for Hate Speech Detection</td>
+                                <td>Rahman, Md Mustafizur; Balakrishnan, Dinesh; Murthy, Dhiraj; Kutlu, Mucahid; Lease, Matthew*</td>
+                                <td><a href="papers/93_CameraReady_rahman-dcai21(1).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Lhotse: a speech data representation library for the modern deep learning ecosystem</td>
+                                <td>Żelasko, Piotr*</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Bridging the gap between AI and the life sciences: towards a standardized multi-omics data type</td>
+                                <td>Herbsthofer, Laurin; Oberhuber, Monika; Prietl, Barbara; López García, Pablo*</td>
+                                <td><a href="papers/95_CameraReady_neurips_2021_multi_omics.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Increasing Data Diversity with Iterative Sampling to Improve Performance</td>
+                                <td>Çavuşoğlu, Devrim*; Eryüksel, Oğulcan; Altınuç, Sinan O</td>
+                                <td><a href="papers/100_CameraReady_OBSS_DCAI_paper.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Data preparation for training CNNs: Application to vibration-based condition monitoring</td>
+                                <td>Yaghoubi, Vahid*; Cheng, Liangliang; Van Paepegem, Wim; Kersemans, Mathias</td>
+                                <td><a href="papers/103_CameraReady_Yaghoubi_DCAI_CR.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Bridging the gap to real-world for network intrusion detection systems with data-centric approach</td>
+                                <td>de Carvalho Bertoli, Gustavo*; Alves Pereira Jr, Lourenço; Verri, Filipe; Santos, Aldri; Saotome, Osamu</td>
+                                <td><a href="papers/104_CameraReady_dcaicamera-ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification</td>
+                                <td>Hao, Heng*; Moon, Hankyu; Didari, Sima; Woo, Jae Oh; Bangert, Patrick</td>
+                                <td><a href="papers/107_CameraReady_GPAL_DCAI.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Evaluating Machine Learning Models for Internet Network Security with Data Slices</td>
+                                <td>Toman, Pamela*; Yadgaran, Elisha; Papadimitriou, Christina; Isaksen, Aaron; Kraning, Matt</td>
+                                <td><a href="papers/108_CameraReady_2021_neurips_datacentric_ai_data_slices_20211122_0940.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>AutoDQ: Automatic Data Quality for Financial Data</td>
+                                <td>Villarreal-Vasquez, Miguel*; Buford, John; Dhingra, Prashant; Yin, Fenglin</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Data Cards: Purposeful and Transparent Documentation for Responsible AI</td>
+                                <td>Pushkarna, Mahima*; Zaldivar, Andrew</td>
+                                <td><a href="papers/112_CameraReady_Data_Cards.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>3D ImageNet: A data collection and labeling tool for Depth and RGB Images</td>
+                                <td>Singh, Gurjeet*; Patrick, Chiang; Zhou, Sifan; Qian, James</td>
+                                <td><a href="papers/113_CameraReady_3DImageNet___NeurIPS_2021-2.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Combining Data-driven Supervision with Human-in-the-loop Feedback for Entity Resolution</td>
+                                <td>Yin, Wenpeng*; Heinecke, Shelby; Li, Vena; Keskar, Nitish Shirish; Jones, Michael; Shi, Shouzhong; Georgiev, Stanislav; Milich, Kurt; Esposito, Joseph; Xiong, Caiming</td>
+                                <td><a href="papers/114_CameraReady_CombiningData-drivenSupervisionwithHuman-in-the-loopFeedbackforEntityResolution.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>IMDB-WIKI-SbS: An Evaluation Dataset for Crowdsourced Pairwise Comparisons</td>
+                                <td>Pavlichenko, Nikita; Ustalov, Dmitry*</td>
+                                <td><a href="papers/115_CameraReady_NeurIPS_2021_Data_Centric_AI_IMDB_WIKI_SbS-2.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Exploiting Proximity Search and Easy Examples to Select Rare Events</td>
+                                <td>Kang, Daniel*; Derhacobian, Alex; Tsuji, Kaoru; Hebert, Trevor; Bailis, Peter D; Fukami, Tadashi; Hashimoto, Tatsunori; Sun, Yi; Zaharia, Matei</td>
+                                <td><a href="papers/117_CameraReady_paper.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Fantastic Data and How to Query Them</td>
+                                <td>Tran, Trung-Kien*; Le-Tuan, Anh; Nguyen Duc, Manh; Yuan, Jicheng; Le Phuoc, Danh</td>
+                                <td><a href="papers/118_CameraReady_DataCentricWorkshop2021_CR_Final.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Whose Ground Truth? Accounting for Individual and Collective Identities Underlying Dataset Annotation</td>
+                                <td>Denton, Emily*; Diaz, Mark; Kivlichan, Ian D; Prabhakaran, Vinodkumar; Rosen, Rachel</td>
+                                <td><a href="papers/119_CameraReady_WhoseGroundTruth?AccountingforIndividualandCollectiveIdentitiesUnderlyingDatasetAnnotation.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Two Approaches to Building Dialogue Systems for People on the Spectrum</td>
+                                <td>Firsanova, Victoria*</td>
+                                <td><a href="papers/123_CameraReady_NeurIPS_2021.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>What can Data-Centric AI Learn from Data and ML Engineering?</td>
+                                <td>Polyzotis, Alkis*; Zaharia, Matei</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Ground-Truth, Whose Truth? - Examining the Challenges with Annotating Toxic Text Datasets</td>
+                                <td>Arhin, Kofi*; Baldini, Ioana; Wei, Dennis; Natesan Ramamurthy, Karthikeyan ; Singh, Moninder</td>
+                                <td><a href="papers/126_CameraReady_HEURIPS_2021_GroundTruthWHoseTruth.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Towards a Shared Rubric for Dataset Annotation</td>
+                                <td>Greene, Andrew M*</td>
+                                <td><a href="papers/127_CameraReady_towards_rubric.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>LSH methods for data deduplication in a Wikipediaartificial dataset</td>
+                                <td>Ciro, Juan Manual*; Galvez, Daniel; Schlippe, Tim ; Kanter, David</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Annotation Inconsistency and Entity Bias inMultiWOZ</td>
+                                <td>Qian, Kun*; Beirami, Ahmad; Lin, Zhouhan; De, Ankita; Geramifard, Alborz; YU, Zhou; Sankar, Chinnadhurai</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Seg-Diff: Checkpoints Are All You Need</td>
+                                <td>Brewster, Grant*; Yuan, Bodi; Hooker, Sara; Cao, Chen; Yuan, Zhiqiang </td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>AutoDC: Automated data-centric processing</td>
+                                <td>Liu, Zac Yung-Chun*; Roychowdhury, Shoumik; Tarlow, Scott; Nair, Akash; Badhe, Shweta; Shah, Tejas</td>
+                                <td><a href="papers/135_CameraReady_AutoDC-NeurIPS-2021-camera-ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Engineering AI Tools for Systematic and Scalable Quality Assessment in Magnetic Resonance Imaging</td>
+                                <td>Zou, Yukai; Jang, Ikbeom*</td>
+                                <td><a href="papers/136_CameraReady_manuscript_revised_v3_submitted.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>FinRL-Meta: A Universe of Near-Real Market Environments for Data-Driven Deep Reinforcement Learning in Quantitative Finance</td>
+                                <td>Liu, Xiao-Yang*; Rui, Jingyang; Gao, Jiechao; Yang, Liuqing; Yang, Hongyang; Wang, Zhaoran; Wang, Christina Dan ; Guo, Jian</td>
+                                <td><a href="papers/137_CameraReady_FinRL_Meta_Ray(3).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Data Augmentation for Intent Classification</td>
+                                <td>Chen, Derek*; Yin, Claire</td>
+                                <td><a href="papers/138_CameraReady_Data_Aug_v5.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>InfiniteForm: A synthetic, minimal bias dataset for fitness applications</td>
+                                <td>Weitz, Andrew*; Bent, Brinnae; Colucci, Lina; Primas, Sidney</td>
+                                <td><a href="papers/139_CameraReady_Edge_NeurIPS_2021.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Who Decides if AI is Fair? The Labels Problem in Algorithmic Auditing</td>
+                                <td>Mishra, Abhilash*; Gorana, Yash</td>
+                                <td><a href="papers/140_CameraReady_Mishra&Gorana_NeurIPS2021.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Data-Centric AI Requires Rethinking Data Notion</td>
+                                <td>Hajij, Mustafa*; Zamzmi, Ghada; Natesan Ramamurthy, Karthikeyan ; Guzman Saenz, Aldo</td>
+                                <td><a href="papers/141_CameraReady_Moden_DataScience_Requires_rethinking_the_notion_of_data(9).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Exploiting Domain Knowledge for Efficient Data-centric Session-based Recommendation model</td>
+                                <td>Mishra, Mayank*; Singhal, Rekha</td>
+                                <td><a href="papers/142_CameraReady_Neurips_DCAI21_142_Cameraready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Topological Deep Learning</td>
+                                <td>Hajij, Mustafa*; Natesan Ramamurthy, Karthikeyan ; Guzman Saenz, Aldo; Istvan, Kyle</td>
+                                <td><a href="papers/143_CameraReady_Topological_Deep_Learning_DCAI_workshop(3).pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Fix your Model by Fixing your Datasets</td>
+                                <td>Sanyal, Atindriyo*; Vyas, Nidhi Kaushik; Chatterji, Vikram; Epstein, Ben; Demir, Nikita; Corletti, Anthony</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Data Expressiveness and Its Use in Data-centric AI</td>
+                                <td>Sharma, Parichit*; Kurban, Hasan; Dalkilic, Mehmet</td>
+                                <td><a href="papers/145_CameraReady_Poster_DCAI_DataExpressiveness_2021.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Debiasing Pre-Trained Sentence Encoders With WordDropouts on Fine-Tuning Data</td>
+                                <td>Panda, Swetasudha*; Wick, Michael; Kobren, Ariel</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Towards a Framework for Data Excellence in Data-Centric AI: Lessons from the Semantic Web</td>
+                                <td>Seneviratne, Oshani*; Hassanzadeh, Oktie; Gruen, Daniel; McCusker, Jamie  P; McGuinness, Deborah</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Sim2Real Docs: Domain Randomization for Documents in Natural Scenes using Ray-traced Rendering</td>
+                                <td>Huang, Austin V.*</td>
+                                <td><a href="papers/150_CameraReady_sim2realdocs_camera_ready_final.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Homogenization of Existing Inertial-Based Datasets to Support Human Activity Recognition</td>
+                                <td>Amrani, Hamza; Micucci, Daniela; Mobilio, Marco*; Napoletano, Paolo</td>
+                                <td><a href="papers/152_CameraReady_Camera_Ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Can machines learn to see without visual databases?</td>
+                                <td>Betti, Alessandro; Gori, Marco; Melacci, Stefano*; Pelillo, Marcello; Roli, Fabio</td>
+                                <td><a href="papers/153_CameraReady_camera_ready.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Augment & Valuate : A Data Enhancement Pipeline for data-centric AI</td>
+                                <td>Lee, Youngjune*; Kwon, Oh Joon; Lee, Haeju; Kim, Joonyoung; Lee, Kangwook; Kim, Kee-Eung</td>
+                                <td><a href="papers/154_CameraReady_[154]Augment&ValuateAdataenhancementpipelineforDataCentricAI.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Simultaneous Improvement of ML Model Fairness and Performance by Identifying Bias in Data</td>
+                                <td>Chaudhari, Bhushan; Agarwal, Aakash*; Bhowmik, Tanmoy</td>
+                                <td><a href="papers/155_CameraReady_NeurIPS_2021_camera_ready_155.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Data Agnostic Image Annotation</td>
+                                <td>Mohamed Nishar, Abbaas Alif*; T V, Sethuraman; Rahman, Md Rashed; Gruteser, Marco; Mandayam, Narayan; Dana, Kristin; Jain, Shubham; Ashok, Ashwin</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs</td>
+                                <td>Schuhmann, Christoph; Vencu, Richard ; Beaumont, Romain; Kaczmarczyk, Robert; Mullis, Clayton; Jitsev, Jenia; Komatsuzaki, Aran*</td>
+                                <td><a href="papers/159_CameraReady_Workshop_Submission_LAION_400M__Public_Dataset_with_CLIP_Filtered_400M_Image_Text_Pairs.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Small Data in NLU: Proposals towards a Data-Centric Approach</td>
+                                <td>Zarcone, Alessandra*; Lehmann, Jens; Habets, Emanuel</td>
+                                <td><a href="papers/160_CameraReady_Zarcone_DCAI.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>On Biased Systems and Data</td>
+                                <td>Vieira, Daniel*</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Data vast and low in variance: Augment machine learning pipelines with dataset profiles to improve data quality without sacrificing scale</td>
+                                <td>Herman, Bernease R*; Leybzon, Danny; Broomall, Jamie</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>CogALex 2.0: Impact of Data Quality on Lexical-Semantic Relation Prediction</td>
+                                <td>Lang, Christian; Wachowiak, Lennart; Heinisch, Barbara; Gromann, Dagmar*</td>
+                                <td><a href="papers/164_CameraReady_CogALex_2_0.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>A Data-Centric Behavioral Machine Learning Platform to Reduce Health Inequalities</td>
+                                <td>Tang, Dexian; Frances, Guillem; Perianez, Africa*</td>
+                                <td><a href="papers/166_CameraReady_main.pdf" style="color:white" > Link </a></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
                 </p>
             </div>
         </div>
     </div>
 </section>
-<section class="bg-primary">
-    <div class="container">
-        <div class="row">
-            <div id="ian-soboroff" class="col-lg-5 col-lg-offset-1" style="padding-right: 40px">
-                <img src="img/keynotes/ian_soboroff.jpg" class="img-responsive" style="border-radius: 100%; width: 100%; height: auto; margin: 0 auto" alt="">
-                <br>
-                <h2 class="section-heading text-center"><a href="https://www.nist.gov/people/ian-soboroff" target="_blank" style="color: white">Ian Soboroff (NIST)</a></h2>
-                <hr class="light">
-                <h3 class="text-center">TREC: Building datasets within a community of use</h3><br>
-                <p>
-                    NIST's Text Retrieval Conference (TREC) and TRECVID evaluations of multimedia search are long-running evaluation workshops that develop datasets for search ranking, classification, and other AI tasks, along with appropriate metrics that the research community can use to gauge progress in those tasks.  Since the start of TREC in 1991, NIST has developed a large store of practical experience in collecting, assembling, labeling, and measuring the quality of datasets.  In this brief talk, I will describe the history of TREC relevance assessments, the processes we use to do determine those labels, and research on how to make those processes more robust, reliable, and inexpensive.
-                </p>
-                <hr class="primary">
-                <h3 class="text-center">Bio</h3><br>
-                <p>
-                    Dr. Ian Soboroff is a computer scientist and leader of the Retrieval Group at the National Institute of Standards and Technology (NIST). The Retrieval Group organizes the Text REtrieval Conference (TREC), the Text Analysis Conference (TAC), and the TREC Video Retrieval Evaluation (TRECVID). These are all large, community-based research workshops that drive the state-of-the-art in information retrieval, video search, web search, information extraction, text summarization and other areas of information access. He has co-authored many publications in information retrieval evaluation, test collection building, text filtering, collaborative filtering, and intelligent software agents. His current research interests include building test collections for complex information seeking tasks.
-                </p>
-            </div>
-            <div id="quang-duong" class="col-lg-5" style="padding-left: 40px">
-                <img src="img/keynotes/quang_duong.jpg" class="img-responsive" style="border-radius: 100%; width: 100%; height: auto; margin: 0 auto" alt="">
-                <br>
-                <h2 class="section-heading text-center"><a href="https://www.linkedin.com/in/quang-duong-6667774/" target="_blank" style="color: white">Quang Duong (Google Health)</a></h2>
-                <hr class="light">
-                <h3 class="text-center">Asynchronous adjudication in labeling medical data: lessons, improvements and expansions</h3><br>
-                <p>
-                    Crowdsourcing has enabled the collection, aggregation and refinement of human knowledge and judgment, i.e. ground truth, for problem domains with data of increasing complexity and scale. A lack of comprehensive diagnostic reference standards in medicine significantly increases the complexity of labeling medical data. Asynchronous adjudication, a newly introduced method of facilitating asynchronous discussions among remote healthcare professionals, has enabled the generation of such ground truth, i.e. medical diagnoses,  with high quality at scale, and consequently, the development of machine learning based medical applications.
-                    <br><br>
-                    In this talk, I will present the challenges of managing labellers, who often are medical experts, involved in asynchronously adjudicating medical labels. The discussion will focus on what information labellers find important to doing their jobs efficiently, and how such information impacts their work’s speed and quality. I next propose improvements to the current asynchronous adjudication mechanism. Last, I will describe a novel patented async adjudication expansion, designed and built to address the challenges of resolving disagreements among experts on visual annotations of medical images.
-                </p>
-                <hr class="primary">
-                <h3 class="text-center">Bio</h3><br>
-                <p>
-                    I received my Ph.D.in Computer Science and Engineering from the University of Michigan, Artificial Intelligence Lab. From 2014 to 2018, I led and managed a data quality team of engineers and data scientists at Google Maps, responsible for building machine learning time-series models that detect and predict visit patterns useful in assisting users to plan their trips efficiently. We built innovative location-based systems for crowdsourcing users’ assessment about their physical surroundings in real time.  Since 2018, I have been leading a team tasked with developing a crowd-sourcing platform for medical labeling and diagnoses in Health, a new healthcare division at Google. The platform's output of high quality labeled data, generated securely and reliably at scale, is imperative to Google Health's efforts in building and deploying state-of-the-art machine-learning-powered diagnostic solutions, including ML models for diabetic retinopathy and breast cancer detection.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <div class="row">
-            <div id="andrea-olgiati" class="col-lg-5 col-lg-offset-1" style="padding-right: 40px">
-                <img src="img/keynotes/andrea_olgiati.jpg" class="img-responsive" style="border-radius: 100%; width: 100%; height: auto; margin: 0 auto" alt="">
-                <br>
-                <h2 class="section-heading text-center"><a href="https://www.linkedin.com/in/andreaolgiati/" target="_blank">Andrea Olgiati (Amazon AI)</a></h2>
-                <hr class="primary">
-                <h3 class="text-center">Data =? Software</h3><br>
-                <p>
-                    Managing large amounts of data in a rigorous way is key to the success of ML initiatives. Yet, we still find that many organizations often do not have a complete view of their data, leading to sub-optimal and biased solutions. What can we learn from the world of software development to build a better-controlled system? How can the creation of controlled datasets become less of an art and more of a science?
-                </p>
-                <hr class="primary">
-                <h3 class="text-center">Bio</h3><br>
-                <p>
-                    Andrea is a Senior Principal Engineer at AWS, where he is the technical leader for the AWS SageMaker managed ML platform. In the past he has worked on computer vision, databases and chip design. He holds a Laurea degree from Politecnico di Milano in Italy.
-                </p>
-            </div>
-            <div id="peter-hallinan" class="col-lg-5" style="padding-left: 40px">
-                <img src="img/keynotes/peter_hallinan.jpg" class="img-responsive" style="border-radius: 100%; width: 100%; height: auto; margin: 0 auto" alt="">
-                <br>
-                <h2 class="section-heading text-center"><a href="https://www.linkedin.com/in/pwhallinan/" target="_blank">Peter Hallinan (AI & Data @ Amazon)</a></h2>
-                <hr class="primary">
-                <h3 class="text-center">Getting good data faster</h3><br>
-                <p>
-                    The AI industry is collectively fielding tens of thousands of ML applications, many of which require human-labeled data (HLD) for training, evaluation or production “patching”. We identify business and operational challenges to producing high-quality HLD at scale, and review the pros and cons of common organizational solutions: outsourcing HLD to third-party vendors, insourcing HLD to a product or engineering sub-team, insourcing HLD to a specialized HLD function, letting science contributors fend for themselves, and hybrids of these.
-                </p>
-                <hr class="primary">
-                <h3 class="text-center">Bio</h3><br>
-                <p>
-                    Peter W. Hallinan leads ML initiatives in human-labeled data at Amazon. Prior to Amazon, he was a partner at Blindsight (computer vision for the blind, sold to AMZN), and at Techcelerator, a venture development firm. Earlier, he was a vice president at Analysis Group / Integral, where he specialized in growth strategy and the management of innovation for Fortune 500 companies in high-tech, life science, and finance.  He holds A.B., S.M., and Ph.D. degrees from Harvard University, where he conducted research in pattern recognition and artificial intelligence, co-authored an early book on face recognition, and moonlighted as a teaching fellow in policy analysis and experimental design at the John F. Kennedy School of Government. His volunteer activities have included serving as a consulting professor at the Stanford School of Medicine, and leading the American Chamber of Commerce in Madagascar.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="bg-primary">
-    <div class="container">
-        <div class="row">
-            <div id="ben-hutchinson" class="col-lg-5 col-lg-offset-1" style="padding-right: 40px">
-                <img src="img/keynotes/ben_hutchinson.jpg" class="img-responsive" style="border-radius: 100%; width: 100%; height: auto; margin: 0 auto" alt="">
-                <br>
-                <h2 class="section-heading text-center"><a href="https://www.linkedin.com/in/ben-hutchinson-ab56464/" target="_blank" style="color: white">Ben Hutchingson (Google Research)</a></h2>
-                <hr class="light">
-                <h3 class="text-center">Towards Accountability for Machine Learning Datasets: Lessons from Software Engineering</h3><br>
-                <p>
-                    Rising concern for the societal implications of artificial intelligence systems has inspired demands for greater transparency and accountability. However the datasets which empower machine learning are often used, shared and re-used with little visibility into the processes of deliberation which led to their creation. In this talk, I introduce a rigorous framework for dataset development transparency which supports decision-making and accountability. The framework uses the cyclical, infrastructural and engineering nature of dataset development to draw on best practices from the software development lifecycle. Each stage of the data development lifecycle yields a set of documents that facilitate improved communication and decision-making, as well as drawing attention to the value and necessity of careful data work. The proposed framework is intended to contribute to closing the accountability gap in artificial intelligence systems, by making visible the often overlooked work that goes into dataset creation.
-                </p>
-                <hr class="primary">
-                <h3 class="text-center">Bio</h3><br>
-                <p>
-                    Ben Hutchinson is a Senior Engineer in Google Research, working on artificial intelligence, dataset development practices, data ethics, fairness, and accountability. His research focuses on incorporating knowledge and practices from a variety of engineering and social science disciplines in order to inform the ethical development of AI. Prior to joining Google Research, he spent ten years writing code for a variety of products such as Google Maps, Knowledge Graph, and Google Search. He uses this engineering experience to help bridge the gaps between research and engineering, and between theory and practice.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+
+
+
 
   <section id="contact">
     <div class="container">
